@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jt blog</title>
+    </head>
+    <body>
+        <div>
+            <h1>Jt blog!</h1>
+        </div>
+<hr>
+
+{% for post in posts %}
+    <div>
+        <h3><a href="">{{ post.title }}</a></h3>
+        <p><i>{{ post.text|linebreaksbr }}</i></p>
+        <p><h6>published: {{ post.published_date }}</h6></p>
+        <hr>
+    </div>
+{% endfor %}
+
+    </body>
+</html>
