@@ -25,7 +25,7 @@ SECRET_KEY = '!r$-j9f3giwnmr+9hgi!ond-v@kz7z*wu=d1ufy1^a4uuzl*lw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'drplama.pythonanywhere.com']
 
 
 # Application definition
