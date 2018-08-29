@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 a {
+    color: #FCA205;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    padding-left: 15px;
+}
+
+.post {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 5px;
+}
+
+.post_text{
+    font-style: italic;
+}
+
+.date {
+    color: #FEECCD;
+    margin-top: 15px;
+}

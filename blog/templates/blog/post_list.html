@@ -1,7 +1,12 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
         <title>Jt blog</title>
+        <<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
         <div>
@@ -10,10 +15,14 @@
 <hr>
 
 {% for post in posts %}
-    <div>
+    <div class="post">
         <h3><a href="">{{ post.title }}</a></h3>
-        <p><i>{{ post.text|linebreaksbr }}</i></p>
-        <p><h6>published: {{ post.published_date }}</h6></p>
+            <div class="post_text"
+               <p>{{ post.text|linebreaksbr }}</p>
+            </div>
+            <div class="date"
+                <p><h6>published: {{ post.published_date }}</h6></p>
+            </div>
         <hr>
     </div>
 {% endfor %}
